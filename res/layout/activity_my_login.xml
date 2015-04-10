@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:id="@+id/linear1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <RelativeLayout 
+            android:id="@+id/relativelayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0px"
+            android:layout_marginRight="15.0px"
+            android:layout_marginTop="62.0px"
+            android:paddingBottom="10.0px"
+            android:paddingTop="21.0px"
+            >
+            <ImageView
+                android:id="@+id/faceImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <EditText
+                android:id="@+id/login_edit_account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_toRightOf="@+id/faceImg"
+                android:hint="@string/username_hint"
+                android:singleLine="true"
+                android:paddingLeft="45.0sp"
+                android:saveEnabled="true"
+                android:textColor="#ff3f3f3f"
+                />
+            <TextView 
+                android:id="@+id/textview01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/login_edit_account"
+                android:layout_alignLeft="@+id/login_edit_account"
+                android:layout_alignTop="@+id/login_edit_account"
+                android:layout_marginRight="15.0sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="7.0sp"
+                android:text="@string/username_input"
+                android:textColor="#ff3f3f3f"
+                android:textSize="16.0dip"
+                />
+            <ImageButton 
+                android:id="@+id/usernamespinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/login_edit_account"
+                android:layout_alignRight="@+id/login_edit_account"
+                android:layout_alignTop="@+id/login_edit_account"
+                android:layout_marginRight="1.0dip"
+                />
+            
+            <EditText
+                android:id="@+id/login_edit_pwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/login_edit_account"
+                android:layout_alignRight="@+id/login_edit_account"
+                android:layout_below="@+id/login_edit_account"
+                android:layout_marginRight="1.0dip"
+                android:password="true"
+                android:singleLine="true"
+                android:paddingLeft="45.0sp"
+                android:saveEnabled="true"
+                android:hint="@string/password_hint"
+                />
+            <TextView 
+                android:id="@+id/textview02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/login_edit_pwd"
+                android:layout_alignRight="@+id/textview01"
+                android:layout_alignTop="@+id/login_edit_pwd"
+                android:gravity="center_vertical"
+                android:paddingLeft="7.0sp"
+                android:text="@string/password_input"
+                android:textColor="#ff3f3f3f"
+                android:textSize="16.0dip"                
+                />
+            <CheckBox 
+                android:id="@+id/login_cb_savepwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/login_btn_login"
+                android:paddingLeft="39.0px"
+                android:text="@string/opt_remember"
+                android:textColor="#ff222222"
+                android:textSize="16.0sp"
+                />
+            <Button
+                android:id="@+id/login_btn_login"
+                android:layout_width="90.0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textview02"
+                android:layout_toLeftOf="@+id/login_btn_zhuce"
+                android:layout_marginTop="7.0px"
+                android:text="@string/login" />
+            <Button
+                android:id="@+id/login_btn_zhuce"
+                android:layout_width="90.0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textview02"
+                android:layout_marginTop="7.0px"
+                android:text="@string/zhuce" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
